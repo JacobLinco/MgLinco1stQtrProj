@@ -1,0 +1,106 @@
+<style>
+
+		* {
+		  box-sizing: border-box;
+		}
+		
+		body{
+			margin:0;
+			background:#EEDBCD;
+		}
+		
+		.header{
+			text-align: center;
+			background:#CDCDCD;	
+			font-size: 25px;
+			float:left;
+			width:100%;
+		}	
+		
+			.definition{
+				width:50%;
+				height:40px;
+				margin:auto;
+				font-size:15px;
+			}
+		
+		.NavBar{
+			padding:0px;
+			width:100%;
+			background-color:black;
+			font-size:15px;
+			float:left;
+			}
+		
+			.NavBar a{
+				display:block;
+				float:left;
+				padding:10px;
+				padding-rightt:25px;
+				color:#CDCDCD;
+				text-decoration:none;
+			}
+			
+			.NavBar a:hover{
+				background-color:gray;
+				color:black;
+			}
+		
+			
+		.col{
+			box-sizing:border-box;
+			float:left;
+			padding:5px;
+			background:#EEDBCD;	
+			width:33.3333%;
+			text-align:center;
+		}
+		.row{
+			clear:left;
+			padding:5px;
+			background:#EEDBCD;
+		}
+		.row>h2{
+			text-align:center;
+		}
+		li{
+			padding:10px;
+		}
+		#graph{
+			float:left;
+			width:90%; 
+			margin:0 5%;
+			background:#EEDBCD;	
+		}
+		@media screen and (max-width: 600px){
+		  .col{
+			width: 100%;
+		  }
+		}
+		
+		.footer{
+			margin-top:10px;
+
+			float:left;
+			background:#000000;
+			width:100%;
+			color:#CDCDCD;
+		}
+			.footer img{
+				float:left;
+			}
+			.footer p{
+				display:block;
+				float:right;
+			}
+		
+		.resources{
+			margin-top:10px;
+			padding:0px;
+			width:600px;
+			float:left;
+			font-size:8px;
+			font-style:italic;
+		}
+
+</style>
