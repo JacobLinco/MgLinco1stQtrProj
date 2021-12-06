@@ -10,6 +10,7 @@
 		}
 		
 		.header{
+			top:0;
 			position:sticky;
 			text-align: center;
 			background:#CDCDCD;	
@@ -26,6 +27,8 @@
 			}
 		
 		.NavBar{
+			top:120px;
+			position:sticky;
 			padding:0px;
 			width:100%;
 			background-color:black;
