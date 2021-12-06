@@ -72,15 +72,23 @@
 			margin:0 5%;
 			background:#EEDBCD;	
 		}
+		
 		@media screen and (max-width: 600px){
 		  .col{
 			width: 100%;
 		  }
 		}
+		.video{
+			width:700px;
+			float:left;
+			margin: 20px 650px;
+		}
+		.video{
+			text-align:center;
+		}
 		
 		.footer{
 			margin-top:10px;
-
 			float:left;
 			background:#000000;
 			width:100%;
@@ -95,6 +103,7 @@
 			}
 		
 		.resources{
+			clear:left;
 			margin-top:10px;
 			padding:0px;
 			width:600px;
