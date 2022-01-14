@@ -89,7 +89,7 @@
 		
 		.footer{
 			margin-top:10px;
-			position:fixed;
+			position:sticky;
 			bottom:0;
 			float:left;
 			background:#000000;
