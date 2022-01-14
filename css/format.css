@@ -77,11 +77,7 @@
 			background:#EEDBCD;	
 		}
 		
-		@media screen and (max-width: 600px){
-		  .col{
-			width: 100%;
-		  }
-		}
+
 		.video{
 			width:700px;
 			float:left;
@@ -100,13 +96,35 @@
 			width:100%;
 			color:#CDCDCD;
 		}
-			.footer img{
-				float:left;
-			}
 			.footer p{
+				font-size:23px;
 				display:block;
 				float:right;
+				margin:0;
+				padding:0;
+				margin:4px;
 			}
+		.footer a{
+			margin-right:5px;
+			display:block;
+			float:left;
+			height:36px;
+		}
+		.pshs{
+		background: url('../images/Spritesheet1.png') no-repeat -5px -4px;
+		width: 234px;
+		height: 34px;
+		}
+		.twt{
+			background: url('../images/Spritesheet1.png') no-repeat -252px 5px;
+			width: 30px;
+			height: 24px;
+		}
+		.fb{
+			background: url('../images/Spritesheet1.png') no-repeat -284px 0;
+			width: 34px;
+			height: 34px;
+		}
 		
 		.resources{
 			clear:left;
@@ -117,5 +135,10 @@
 			font-size:8px;
 			font-style:italic;
 		}
-
+		
+				@media screen and (max-width: 600px){
+		  .col{
+			width: 100%;
+		  }
+		}
 </style>
