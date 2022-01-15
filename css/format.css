@@ -63,8 +63,16 @@
 			z-index:0;
 		}
 		.col img{
+
 			width:40%;
 			position:relative;
+		}
+		
+		#CaseMap{
+			width:100%;
+		}
+		#CaseMap1{
+			width:50%;
 		}
 		
 		#zero{
@@ -297,7 +305,16 @@
 			font-size:8px;
 			font-style:italic;
 		}
-		
+		.resourcesP{
+			margin-left:50px;
+			text-align:left;
+			text-indent:-40px;
+		}
+		.resourcesF{
+			position:fixed;
+		}
+
+	
 			@media screen and (max-width: 600px){
 		  .col{
 			width: 100%;
