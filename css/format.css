@@ -17,6 +17,7 @@
 			font-size: 25px;
 			float:left;
 			width:100%;
+			z-index:5
 		}	
 		
 			.definition{
@@ -27,20 +28,21 @@
 			}
 		
 		.NavBar{
-			top:120px;
+			top:118px;
 			position:sticky;
 			padding:0px;
 			width:100%;
 			background-color:black;
 			font-size:15px;
 			float:left;
+			z-index:4;
 			}
 		
 			.NavBar a{
 				display:block;
 				float:left;
 				padding:10px;
-				padding-rightt:25px;
+				padding-right:25px;
 				color:#CDCDCD;
 				text-decoration:none;
 			}
@@ -58,18 +60,178 @@
 			background:#EEDBCD;	
 			width:33.3333%;
 			text-align:center;
+			z-index:0;
 		}
+		.col img{
+			width:40%;
+			position:relative;
+		}
+		
+		#zero{
+		 z-index:3;
+		 width:250px;
+		}
+
+		#one{
+			right:800px;
+			top:0px; 
+			position:relative;
+			opacity:0;
+			animation-name:one;
+			animation-duration:3s;
+			animation-fill-mode:forwards;
+		}
+		@keyframes one{
+			from{right:800px; top:0px; opacity:0;}
+			to{ right:0px; top:0px; opacity:1}
+		}
+		
+		#two{
+			right:1600px;
+			top:0px;
+			opacity:0;
+			position:relative;
+			animation-name:two;
+			animation-duration:3s;
+			animation-fill-mode:forwards;
+		}
+		@keyframes two{
+			from{right:1600px; top:0px; opacity:0}
+			to{ right:0px; top:0px; opacity:1}
+		}
+		
+		#three{
+			right:0px;
+			bottom:400px;
+			opacity:0;
+			position:relative;
+			animation-name:three;
+			animation-duration:3s;
+			animation-fill-mode:forwards;
+		}
+		@keyframes three{
+			from{right:0px; bottom:400px; opacity:0}
+			to{ right:0px; bottom:0px; opacity:1}
+		}
+		
+		#four{
+			right:800px;
+			bottom:400px;
+			opacity:0;
+			position:relative;
+			animation-name:four;
+			animation-duration:6s;
+			animation-fill-mode:forwards;
+		}
+		@keyframes four{
+			0%{right:800px; bottom:400px; opacity:0}
+			50%{ right:0px; bottom:400px; opacity:0.5}
+			100%{right:0px; bottom:0px; opacity:1}
+		}	
+		
+		#five{
+			right:1600px;
+			bottom:400px;
+			opacity:0;
+			position:relative;
+			animation-name:five;
+			animation-duration:6s;
+			animation-fill-mode:forwards;
+		}
+		@keyframes five{
+			0%{right:1600px; bottom:400px; opacity:0}
+			50%{ right:0px; bottom:400px; opacity:0.5}
+			100%{right:0px; bottom:0px; opacity:1}
+		}
+		
+		#six{
+			right:0px;
+			bottom:800px;
+			opacity:0;
+			position:relative;
+			animation-name:six;
+			animation-duration:3s;
+			animation-fill-mode:forwards;
+		}
+		@keyframes six{
+			from{right:0px; bottom:800px; opacity:0}
+			to{right:0px; bottom:0px; opacity:1}
+		}
+	
+		#seven{
+			right:800px;
+			bottom:800px;
+			opacity:0;
+			position:relative;
+			animation-name:seven;
+			animation-duration:6s;
+			animation-fill-mode:forwards;
+		}
+		@keyframes seven{
+			0%{right:800px; bottom:800px; opacity:0}
+			50%{ right:0px; bottom:800px; opacity:0.5}
+			100%{right:0px; bottom:0px; opacity:1}
+		}
+	
+		#eight{
+			right:1600px;
+			bottom:800px;
+			opacity:0;
+			position:relative;
+			animation-name:eight;
+			animation-duration:6s;
+			animation-fill-mode:forwards;
+		}
+		@keyframes eight{
+			0%{right:1600px; bottom:800px; opacity:0}
+			50%{ right:0px; bottom:800px; opacity:0.5}
+			100%{right:0px; bottom:0px; opacity:1}
+		}
+		
+		#nine{
+			right:0px;
+			bottom:1600px;
+			opacity:0;
+			position:relative;
+			animation-name:nine;
+			animation-duration:3s;
+			animation-fill-mode:forwards;
+		}
+		@keyframes nine{
+			from{right:0px; bottom:1600px; opacity:0}
+			to{right:0px; bottom:0px; opacity:1}
+		}
+		
+		#ten{
+			right:800px;
+			bottom:1200px;
+			opacity:0;
+			position:relative;
+			animation-name:ten;
+			animation-duration:6s;
+			animation-fill-mode:forwards;
+		}
+		@keyframes ten{
+			0%{right:800px; bottom:1200px; opacity:0}
+			50%{ right:0px; bottom:1200px; opacity:0.5}
+			100%{right:0px; bottom:0px; opacity:1}
+		}
+		
 		.row{
 			clear:left;
 			padding:5px;
-			background:#EEDBCD;
-		}
-		.row>h2{
+			background:#EEDBCD;			
 			text-align:center;
+
 		}
+		.row li{
+			list-style-type:none;
+		}
+		
 		li{
 			padding:10px;
 		}
+		
 		#graph{
 			float:left;
 			width:90%; 
@@ -79,9 +241,8 @@
 		
 
 		.video{
-			width:700px;
 			float:left;
-			margin: 20px 650px;
+			margin: 20px 25vw;
 		}
 		.video{
 			text-align:center;
@@ -110,6 +271,7 @@
 			float:left;
 			height:36px;
 		}
+	
 		.pshs{
 		background: url('../images/Spritesheet1.png') no-repeat -5px -4px;
 		width: 234px;
@@ -136,9 +298,13 @@
 			font-style:italic;
 		}
 		
-				@media screen and (max-width: 600px){
+			@media screen and (max-width: 600px){
 		  .col{
 			width: 100%;
 		  }
 		}
+			@media screen and (max-width: 600px){
+		  .video{
+			width: 100%;
+		  }
 </style>
