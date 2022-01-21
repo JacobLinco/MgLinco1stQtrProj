@@ -61,24 +61,38 @@
 		.pageleft{
 			width:25%;
 			height:200px;
-			margin-top:30px;
+			margin-top:200px;
 			margin-left:20%;
 			margin-right:5%;
 			background:#EEDBCD;
 			border:2px solid #C06014;
 			float:left;
 		}
+		.pageleft.top{
+			margin-top:50px;
+		}
+		.pageleft.bottom{
+			margin-bottom:250px;
+		}
 		
 		.pageright{
 			width:25%;
 			height:200px;
 			margin-top:30px;
+			margin-top:200px;
 			margin-right:20%;
 			margin-left:5%;
 			background:#EEDBCD;
 			border:2px solid #C06014;
 			float:left;
 		}
+		.pageright.top{
+			margin-top:50px;
+		}
+		.pageright.bottom{
+			margin-bottom:250px;
+		}
+		
 		
 			div.pageleft img, div.pageright img{
 				width:80%;
@@ -91,9 +105,21 @@
 				text-align:center;
 				}
 		
-		.footer{
+
+		
+		.resources{
 			margin-top:10px;
-			position:fixed;
+			padding:0px;
+			width:600px;
+			float:left;
+			font-size:8px;
+			font-style:italic;
+			bottom:50px;
+		}
+		
+				.footer{
+			margin-top:10px;
+			position:sticky;
 			bottom:0;
 			float:left;
 			background:#000000;
@@ -130,19 +156,8 @@
 			height: 34px;
 		}
 		
-		.resources{
-			position:absolute;
-			margin-top:10px;
-			padding:0px;
-			width:600px;
-			float:left;
-			font-size:8px;
-			font-style:italic;
-			bottom:50px;
-		}
-		
-		@media screen and (max-width: 600px){
-		  .pageleft, .pageright{
+		@media screen and (max-width: 601px){
+		  .pageleft, .pageright, .resources{
 			width: 100%;
 		  }
 		}		
@@ -167,22 +182,22 @@
 		<a href="htdocs/resources.html">Resources</a>	
 	</nav>
 	
-	<div class="pageleft">
+	<div class="pageleft top">
 		<a href="htdocs/In The Philippines.html"><img src="images/DocVaccinePhil.jpg" alt="Doctor preparing vaccine"></a>
 		<p>In The Philippines</p>
 	</div>
 	
-	<div class="pageright">
+	<div class="pageright top">
 		<a href="htdocs/Internationally.html"><img src="images/CovidInternational.jpg" alt="Visual Representation of Covid-19 Cases Around The World"></a>
 		<p>Internationally</p>
 	</div>
 	
-	<div class="pageleft">
+	<div class="pageleft bottom">
 		<a href="htdocs/vaccine.html"><img src="images/CovidVaccine.jpg" alt="Close up of A Vial Labeled Covid-19 Vaccine"></a>
 		<p>Vaccines and Additional Info</p>
 	</div>
 	
-	<div class="pageright">
+	<div class="pageright bottom">
 		<a href="htdocs/resources.html"> <img src="images/resources.png" alt="word art of the word 'Resources'" style="height:160px;margin:20px 10%;"></a>
 	</div>
 	
