@@ -1,5 +1,4 @@
 <style>
-<!-- general properties-->
 		* {
 		  box-sizing: border-box;
 		}
@@ -9,7 +8,6 @@
 			background:#EEDBCD;
 		}
 
-<!--Header properties-->
 		.header{
 			top:0;
 			position:sticky;
@@ -27,7 +25,6 @@
 				margin:auto;
 				font-size:15px;
 			}
-	<!--Nabar properties-->
 		.NavBar{
 			top:118px;
 			position:sticky;
@@ -53,7 +50,6 @@
 				color:black;
 			}
 		
-<!--section properties-->	
 		.col{
 			box-sizing:border-box;
 			float:left;
@@ -71,7 +67,6 @@
 		.col ul{
 			 text-align:left;
 		}
-	<!--Casemap-specific properties-->
 		#CaseMap{
 			width:100%;
 		}
@@ -79,7 +74,6 @@
 			width:50%;
 		}
 	
-<!--Animation properties(for vaccine page)-->	
 		#zero{
 		 z-index:3;
 		 width:250px;
@@ -230,7 +224,6 @@
 			100%{right:0px; bottom:0px; opacity:1}
 		}
 		
-<!--visual aids & additional info properties-->
 		.row{
 			clear:left;
 			padding:5px;
@@ -262,7 +255,6 @@
 			text-align:center;
 		}
 	
-<!--page-bottom properties(footer, resources)-->	
 		.footer{
 			margin-top:10px;
 			position:sticky;
@@ -286,7 +278,6 @@
 			float:left;
 			height:36px;
 		}
-	<!--image-sprites-->
 		.pshs{
 		background: url('../images/Spritesheet1.png') no-repeat -5px -4px;
 		width: 234px;
@@ -302,7 +293,7 @@
 			width: 34px;
 			height: 34px;
 		}
-	<!--resources-->
+		
 		.resources{
 			clear:left;
 			margin-top:10px;
@@ -321,7 +312,6 @@
 			position:fixed;
 		}
 
-<!--page size adjustment-->	
 			@media screen and (max-width: 600px){
 		  .col{
 			width: 100%;
